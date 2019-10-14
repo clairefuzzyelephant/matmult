@@ -19,7 +19,7 @@ def mult(A, B):
     C = []
     for i in range(len(A)):
         row = []
-        for j in range(len(B)):
+        for j in range(len(B[0])):
             sum = 0
             ind = 0
             while ind < len(B):
